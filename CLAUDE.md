@@ -113,14 +113,18 @@ dev/active/implement-user-auth/
 
 **3. 上下文压缩前**
 ```bash
-/dev-docs-update
+/dev-docs-update  # 手动保存
 ```
 
-自动保存：
-- 当前实现状态
-- 本次会话的关键决策
-- 下一步骤
-- 未完成工作的确切状态
+**💡 自动保存（推荐）**：项目已配置 PreCompact Hook，在接近 token 限制时**自动触发** `/dev-docs-update`，无需手动操作。
+
+自动保存内容：
+- ✅ 当前实现状态
+- ✅ 本次会话的关键决策
+- ✅ 下一步骤
+- ✅ 未完成工作的确切状态
+
+**配置详情**：查看 `.claude/HOOKS.md`
 
 **4. 上下文重置后**
 - Claude 自动读取三个文件

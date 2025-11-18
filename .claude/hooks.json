@@ -1,0 +1,9 @@
+{
+  "hooks": {
+    "preCompact": {
+      "enabled": true,
+      "command": "/dev-docs-update",
+      "description": "在上下文压缩前自动保存 Dev Docs 进度"
+    }
+  }
+}

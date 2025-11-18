@@ -249,8 +249,17 @@ dev/active/[task-name]/
 **更新**：上下文重置前更新现有 dev docs
 
 **用法**：
+```bash
+/dev-docs-update  # 手动触发
 ```
-/dev-docs-update
+
+**💡 自动触发（推荐）**：
+本项目已配置 **PreCompact Hook**，在接近 token 限制（~180K/200K）时**自动触发**此命令，无需手动操作！
+
+**工作原理**：
+```
+Token 使用 → 接近限制 → PreCompact Hook 触发
+→ /dev-docs-update 自动执行 → 进度保存 → 上下文压缩
 ```
 
 **更新内容**：
@@ -259,7 +268,12 @@ dev/active/[task-name]/
 - 更新 context 的会话进度
 - 捕获当前状态
 
-**何时使用**：接近上下文限制或结束会话时
+**何时手动使用**：
+- 长时间中断前主动保存
+- 切换到其他任务前
+- 想要确保进度已记录
+
+**配置详情**：查看 [.claude/HOOKS.md](../.claude/HOOKS.md)
 
 ---
 
