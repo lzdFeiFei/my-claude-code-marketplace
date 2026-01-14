@@ -1,0 +1,38 @@
+{
+  "name": "x-article-fetcher",
+  "displayName": "X Article Fetcher",
+  "description": "从 X (Twitter) 获取文章内容的专业工具。支持提取文章标题、作者、正文等完整信息，并可保存为 Markdown 格式。",
+  "version": "1.0.0",
+  "author": "User",
+  "tags": ["twitter", "x", "article", "content-extraction", "web-scraping"],
+  "triggers": [
+    "获取 X 文章",
+    "读取推特长文",
+    "X article",
+    "Twitter article",
+    "x.com article"
+  ],
+  "requiredTools": [
+    "mcp__playwright__browser_navigate",
+    "mcp__playwright__browser_wait_for",
+    "mcp__playwright__browser_snapshot"
+  ],
+  "optionalTools": [
+    "mcp__playwright__browser_take_screenshot",
+    "mcp__playwright__browser_evaluate",
+    "Write",
+    "TodoWrite"
+  ],
+  "capabilities": [
+    "提取 X/Twitter 文章完整内容",
+    "格式化为 Markdown",
+    "保存文章到本地",
+    "批量处理多篇文章",
+    "提取互动数据（点赞、转发等）"
+  ],
+  "limitations": [
+    "需要 Playwright MCP 支持",
+    "某些文章可能需要登录",
+    "受网络连接影响"
+  ]
+}
