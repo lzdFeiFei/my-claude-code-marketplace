@@ -1,7 +1,7 @@
 {
   "name": "my-claude-code-marketplace",
   "version": "1.0.0",
-  "description": "个人 Claude Code Skills Marketplace - 包含 15 个专业前端开发和内容创作 Skills",
+  "description": "个人 Claude Code Skills Marketplace - 包含 17 个专业前端开发、内容创作和工作流自动化 Skills",
   "author": "lzdFeiFei",
   "repository": "https://github.com/lzdFeiFei/my-claude-code-marketplace",
   "license": "MIT",
@@ -11,7 +11,7 @@
       "id": "my-claude-code-marketplace",
       "name": "My Claude Code Marketplace",
       "version": "1.0.0",
-      "description": "个人 Claude Code Skills Marketplace - 包含 15 个专业前端开发和内容创作 Skills",
+      "description": "个人 Claude Code Skills Marketplace - 包含 17 个专业前端开发、内容创作和工作流自动化 Skills",
       "author": "lzdFeiFei",
       "repository": "https://github.com/lzdFeiFei/my-claude-code-marketplace",
       "license": "MIT",
@@ -25,7 +25,10 @@
         "typescript",
         "tailwind",
         "frontend",
-        "content-creation"
+        "content-creation",
+        "translation",
+        "workflow",
+        "automation"
       ],
       "skills": [
         {
@@ -117,6 +120,18 @@
           "name": "X Article Fetcher",
           "description": "从 X (Twitter) 获取文章内容的专业工具。使用 Playwright MCP 自动访问 X 文章链接，提取完整内容。",
           "keywords": ["x", "twitter", "article", "fetcher", "mcp", "playwright"]
+        },
+        {
+          "id": "en-to-zh-translator",
+          "name": "English to Chinese Translator",
+          "description": "专业的英文到中文翻译工具，支持技术文档、学术论文、新闻文章等多种内容类型，自动识别并应用相应翻译风格，完整保留 Markdown 格式和代码块。",
+          "keywords": ["translation", "english", "chinese", "markdown", "documentation", "i18n"]
+        },
+        {
+          "id": "x-to-wechat-agent",
+          "name": "X to WeChat Agent",
+          "description": "轻量级launcher，启动独立subagent将X文章转换为公众号文章。不占用主agent上下文，自动完成爬取、翻译、排版、HTML生成全流程。",
+          "keywords": ["workflow", "agent", "automation", "x", "wechat", "subagent", "launcher"]
         }
       ]
     }

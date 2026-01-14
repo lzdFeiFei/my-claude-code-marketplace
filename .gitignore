@@ -36,3 +36,8 @@ Thumbs.db
 # Misc
 *.log
 .cache/
+
+# Local Development
+.claude/
+.backup/
+dev/active/

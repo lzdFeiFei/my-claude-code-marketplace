@@ -2,9 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/lzdFeiFei/my-claude-code-marketplace)
-[![Skills](https://img.shields.io/badge/skills-15-green.svg)](https://github.com/lzdFeiFei/my-claude-code-marketplace)
+[![Skills](https://img.shields.io/badge/skills-17-green.svg)](https://github.com/lzdFeiFei/my-claude-code-marketplace)
 
-个人 Claude Code Skills Marketplace - 包含 15 个专业前端开发和内容创作 Skills，支持标准 marketplace 安装流程。
+个人 Claude Code Skills Marketplace - 包含 17 个专业前端开发、内容创作和工作流自动化 Skills，支持标准 marketplace 安装流程。
 
 ## 快速开始
 
@@ -28,7 +28,7 @@
 
 将整个仓库克隆到本地，然后将 `skills/`、`commands/`、`hooks/` 目录复制到你的项目中。
 
-## 包含的 Skills (15 个)
+## 包含的 Skills (17 个)
 
 ### 前端开发类 (5 个)
 
@@ -104,7 +104,7 @@
 
 **关键词**: `product`, `prd`, `requirements`, `analysis`, `documentation`
 
-### 其他工具类 (2 个)
+### 其他工具类 (3 个)
 
 #### 14. **git-helper**
 智能 Git 操作助手，自动处理代码提交、生成符合 Conventional Commits 规范的 commit message。
@@ -115,6 +115,19 @@
 从 X (Twitter) 获取文章内容的专业工具，使用 Playwright MCP 自动访问 X 文章链接，提取完整内容。
 
 **关键词**: `x`, `twitter`, `article`, `fetcher`, `mcp`, `playwright`
+
+#### 16. **en-to-zh-translator**
+专业的英文到中文翻译工具，支持技术文档、学术论文、新闻文章等多种内容类型，自动识别并应用相应翻译风格，完整保留 Markdown 格式和代码块。
+
+**关键词**: `translation`, `english`, `chinese`, `markdown`, `documentation`
+
+### 工作流自动化类 (1 个)
+
+#### 17. **x-to-wechat-agent**
+轻量级launcher，启动独立subagent将X文章转换为公众号文章。不占用主agent上下文，自动完成爬取、翻译、排版、HTML生成全流程。
+
+**关键词**: `workflow`, `agent`, `automation`, `x`, `wechat`, `subagent`, `launcher`
+**依赖**: `x-article-fetcher`, `en-to-zh-translator`, `wechat-md-formatter`, `md-to-wechat`
 
 ## 技术栈
 

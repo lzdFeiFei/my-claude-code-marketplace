@@ -121,6 +121,35 @@ rm -rf .claude/commands
 
 ## [Unreleased]
 
+### Added
+
+#### 🤖 新增工作流自动化
+- **x-to-wechat-agent** - X文章转公众号自动化agent launcher
+  - 轻量级launcher (~1KB)，不占用主agent上下文
+  - 启动独立subagent完成：爬取 → 翻译 → 排版 → 生成HTML
+  - Subagent在隔离上下文中自主执行全流程
+  - 支持并行处理多个文章
+  - 支持自定义翻译和排版风格
+  - 完整的错误处理和质量验证
+  - 依赖: x-article-fetcher, en-to-zh-translator, wechat-md-formatter, md-to-wechat
+
+#### 🌐 新增翻译工具
+- **en-to-zh-translator** - 专业的英文到中文翻译 skill
+  - 智能识别内容类型（技术文档、学术论文、新闻等）
+  - 完整保留 Markdown 格式和代码块
+  - 自动应用相应翻译风格
+  - 支持文件路径和直接文本输入
+  - 生成带 `-zh` 后缀的翻译文件
+  - 内置技术术语对照表（600+ 术语）
+  - 包含详细的翻译指南文档
+
+### Changed
+
+- 更新 README.md，skill 数量从 15 个增加到 17 个
+- 新增分类 "工作流自动化类"
+- 更新 "其他工具类" 从 2 个增加到 3 个
+- 添加 `workflow`, `automation`, `pipeline` 关键词
+
 ### Planned
 
 - 添加更多前端开发 skills
