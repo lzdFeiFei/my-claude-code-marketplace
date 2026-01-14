@@ -1,3 +1,9 @@
+---
+name: figma-ui-analyzer
+description: 专业的 Figma 设计稿分析工具，通过 Figma MCP 获取设计信息，提供详细的 UI 还原开发思路和实现方案。支持设计稿分析、组件拆分建议、布局方案、响应式策略、技术栈映射（React + Tailwind + TypeScript）。适用于 Figma 设计还原、UI 开发思路、组件架构设计等场景。
+allowed-tools: mcp__figma__get_file, mcp__figma__get_node, mcp__figma__get_comments, Read, Write, AskUserQuestion
+---
+
 # Figma UI Analyzer Skill
 
 **Version**: 1.0.0

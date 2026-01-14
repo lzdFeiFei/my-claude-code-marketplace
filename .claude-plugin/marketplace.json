@@ -1,0 +1,124 @@
+{
+  "name": "my-claude-code-marketplace",
+  "version": "1.0.0",
+  "description": "个人 Claude Code Skills Marketplace - 包含 15 个专业前端开发和内容创作 Skills",
+  "author": "lzdFeiFei",
+  "repository": "https://github.com/lzdFeiFei/my-claude-code-marketplace",
+  "license": "MIT",
+  "homepage": "https://github.com/lzdFeiFei/my-claude-code-marketplace",
+  "plugins": [
+    {
+      "id": "my-claude-code-marketplace",
+      "name": "My Claude Code Marketplace",
+      "version": "1.0.0",
+      "description": "个人 Claude Code Skills Marketplace - 包含 15 个专业前端开发和内容创作 Skills",
+      "author": "lzdFeiFei",
+      "repository": "https://github.com/lzdFeiFei/my-claude-code-marketplace",
+      "license": "MIT",
+      "pluginJsonUrl": "https://raw.githubusercontent.com/lzdFeiFei/my-claude-code-marketplace/master/.claude-plugin/plugin.json",
+      "categories": ["frontend", "content-creation", "development-tools"],
+      "keywords": [
+        "claude-code",
+        "marketplace",
+        "skills",
+        "react",
+        "typescript",
+        "tailwind",
+        "frontend",
+        "content-creation"
+      ],
+      "skills": [
+        {
+          "id": "react-component-generator",
+          "name": "React Component Generator",
+          "description": "Generate React components following best practices with TypeScript, Tailwind CSS, and Zustand state management.",
+          "keywords": ["react", "typescript", "tailwind", "component", "zustand", "frontend"]
+        },
+        {
+          "id": "feature-builder",
+          "name": "Feature Builder",
+          "description": "Build complete React features with proper layered architecture including UI components, business logic, API integration, and state management.",
+          "keywords": ["react", "feature", "architecture", "api", "state-management", "hooks"]
+        },
+        {
+          "id": "code-review",
+          "name": "Frontend Code Review",
+          "description": "Frontend-focused code review for React/TypeScript/Tailwind projects. Analyzes code quality, security, performance, accessibility, and best practices.",
+          "keywords": ["code-review", "security", "performance", "accessibility", "react", "quality"]
+        },
+        {
+          "id": "ui-analyzer",
+          "name": "UI Analyzer",
+          "description": "Analyze UI design screenshots and generate React components with TypeScript and Tailwind CSS.",
+          "keywords": ["ui", "design", "screenshot", "analysis", "react", "tailwind"]
+        },
+        {
+          "id": "figma-ui-analyzer",
+          "name": "Figma UI Analyzer",
+          "description": "专业的 Figma 设计稿分析工具，通过 Figma MCP 获取设计信息，提供详细的 UI 还原开发思路和实现方案。",
+          "keywords": ["figma", "ui", "design", "mcp", "react", "analysis"]
+        },
+        {
+          "id": "request-analyzer",
+          "name": "Request Analyzer",
+          "description": "Proactively analyze user requests to determine task type, assess prompt quality, and intelligently recommend which skills to activate.",
+          "keywords": ["analyzer", "coordinator", "prompt", "workflow", "automation"]
+        },
+        {
+          "id": "prompt-optimizer",
+          "name": "Prompt Optimizer",
+          "description": "Analyze and optimize user prompts for clarity, specificity, and completeness using interactive questionnaires or direct analysis.",
+          "keywords": ["prompt", "optimization", "clarity", "interactive", "questionnaire"]
+        },
+        {
+          "id": "skill-creator",
+          "name": "Skill Creator",
+          "description": "Guide for creating effective skills that extend Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+          "keywords": ["skill", "creator", "guide", "development", "tools"]
+        },
+        {
+          "id": "git-helper",
+          "name": "Git Helper",
+          "description": "智能 Git 操作助手，自动处理代码提交、生成符合 Conventional Commits 规范的 commit message。",
+          "keywords": ["git", "commit", "conventional-commits", "automation", "version-control"]
+        },
+        {
+          "id": "product-manager",
+          "name": "Product Manager",
+          "description": "资深产品经理助手，提供专业的PRD文档评审和创作服务。涵盖需求分析、用户价值、技术可行性、商业目标等多个维度。",
+          "keywords": ["product", "prd", "requirements", "analysis", "documentation"]
+        },
+        {
+          "id": "tech-article-writer",
+          "name": "Tech Article Writer",
+          "description": "技术干货文章创作专家，擅长用简练语言传递核心知识点，不遗漏关键信息。",
+          "keywords": ["article", "writing", "technical", "content", "documentation"]
+        },
+        {
+          "id": "wechat-article-writer",
+          "name": "WeChat Article Writer",
+          "description": "专业的微信公众号文章创作助手。支持通过搜索工具丰富内容、优化标题、调整语气为官方文案风格。",
+          "keywords": ["wechat", "article", "writing", "content", "social-media"]
+        },
+        {
+          "id": "md-to-wechat",
+          "name": "Markdown to WeChat",
+          "description": "将 Markdown 文档转换为适合微信公众号的美观 HTML 格式。支持标题、代码块、引用块、列表、表格等常见元素。",
+          "keywords": ["markdown", "wechat", "html", "converter", "formatting"]
+        },
+        {
+          "id": "wechat-md-formatter",
+          "name": "WeChat Markdown Formatter",
+          "description": "微信公众号 Markdown 智能排版专家。将各种格式的文本内容优化为适合公众号阅读的 Markdown 格式。",
+          "keywords": ["wechat", "markdown", "formatting", "optimization", "typography"]
+        },
+        {
+          "id": "x-article-fetcher",
+          "name": "X Article Fetcher",
+          "description": "从 X (Twitter) 获取文章内容的专业工具。使用 Playwright MCP 自动访问 X 文章链接，提取完整内容。",
+          "keywords": ["x", "twitter", "article", "fetcher", "mcp", "playwright"]
+        }
+      ]
+    }
+  ]
+}

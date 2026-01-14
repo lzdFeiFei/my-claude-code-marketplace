@@ -1,3 +1,9 @@
+---
+name: x-article-fetcher
+description: 从 X (Twitter) 获取文章内容的专业工具。使用 Playwright MCP 自动访问 X 文章链接，提取完整内容（标题、作者、正文），并可选保存为 Markdown 文件。适用于获取推特长文、分析 X 文章、保存文章内容等场景。
+allowed-tools: mcp__playwright__browser_navigate, mcp__playwright__browser_wait_for, mcp__playwright__browser_snapshot, mcp__playwright__browser_take_screenshot, mcp__playwright__browser_evaluate, Write, AskUserQuestion
+---
+
 # X Article Fetcher Skill
 
 从 X (Twitter) 获取文章内容的专业工具。

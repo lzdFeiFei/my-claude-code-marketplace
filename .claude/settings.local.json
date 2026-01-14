@@ -4,7 +4,11 @@
       "Bash(python -c:*)",
       "Bash(uv venv:*)",
       "Bash(uv pip install:*)",
-      "Bash(uv run python:*)"
+      "Bash(uv run python:*)",
+      "WebSearch",
+      "Bash(/dev-docs 将仓库改造为 Claude Code Marketplace，每个 skill 作为独立 plugin)",
+      "Skill(dev-docs)",
+      "WebFetch(domain:github.com)"
     ]
   }
 }
